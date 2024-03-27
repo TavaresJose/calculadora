@@ -8,6 +8,9 @@ public class CalculadoraTeste {
         System.out.println(resultadoSoma);
 
         System.out.println(calc.somarComPreferido(
-                Double.parseDouble(JOptionPane.showInputDialog("Digite seu número para somar com o preferido"))));
+                Double.parseDouble(JOptionPane.showInputDialog
+                ("Digite seu número para somar com o preferido"))));
+
+                System.out.println(calc.subtrair(8, 2));
     }
 }
